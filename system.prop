@@ -53,6 +53,7 @@ ro.qcom.ad=1
 ro.vendor.display.ad=1
 ro.vendor.display.ad.sdr_calib_data=/vendor/etc/ad_calib.cfg
 ro.vendor.display.sensortype=2
+debug.egl.force_1_4=1
 
 # CABL
 ro.qualcomm.cabl=0
