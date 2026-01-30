@@ -13,3 +13,4 @@ libprotobuf-cpp-full.so
 libprotobuf-cpp-lite.so
 libllvm-glnext.so
 libgsl.so
+libadreno_utils.so
