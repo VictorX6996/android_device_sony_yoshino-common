@@ -11,3 +11,6 @@ BUILD_BROKEN_DUP_RULES := true
 
 # 如果你的 vendor 是用 Android.mk 複製檔案的，這行也很重要
 BUILD_BROKEN_MISSING_REQUIRED_MODULES := true
+
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/public.libraries.txt:$(TARGET_COPY_OUT_VENDOR)/etc/public.libraries.txt
