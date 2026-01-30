@@ -1,1 +1,3 @@
 libOpenCL.so
+libgsl.so
+libadreno_utils.so
