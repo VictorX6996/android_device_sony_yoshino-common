@@ -11,3 +11,5 @@ libOpenCL.so
 libnpu.so
 libprotobuf-cpp-full.so
 libprotobuf-cpp-lite.so
+libllvm-glnext.so
+libgsl.so
