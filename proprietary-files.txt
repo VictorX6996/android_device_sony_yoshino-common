@@ -345,6 +345,17 @@ lib64/vendor.somc.hardware.miscta@1.0.so|3349b02e83ec7fe7d7b1cbc698fbc52e156c364
 etc/init/taimport.rc
 lib64/libdevice_security_client.so
 
+
+# OpenCL
+vendor/lib64/libOpenCL.so
+vendor/lib64/libllvm-glnext.so
+vendor/lib64/libgsl.so
+vendor/lib64/libadreno_utils.so
+vendor/lib64/libq3dtools_adreno.so
+vendor/lib64/egl/libEGL_adreno.so
+vendor/lib64/egl/libGLESv2_adreno.so 
+
+
 # UDATEMISCTA
 bin/taimport
 etc/init/updatemiscta.rc
