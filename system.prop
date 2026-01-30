@@ -54,14 +54,7 @@ ro.vendor.display.ad=1
 ro.vendor.display.ad.sdr_calib_data=/vendor/etc/ad_calib.cfg
 ro.vendor.display.sensortype=2
 debug.egl.force_1_4=1
-# SurfaceFlinger VSync 修正
-debug.sf.use_phase_offsets_as_durations=1
-debug.sf.late.sf.duration=10500000
-debug.sf.late.app.duration=20500000
-debug.sf.early.sf.duration=16000000
-debug.sf.early.app.duration=16000000
-debug.sf.early.gl.sf.duration=13500000
-debug.sf.early.gl.app.duration=21000000
+
 
 # CABL
 ro.qualcomm.cabl=0
