@@ -5,18 +5,4 @@ soong_namespace {
     ],
 }
 
-// 定義 64-bit 的 libCB.so 連結 (指向 libllvm-glnext.so)
-install_symlink {
-    name: "libCB_symlink64",
-    vendor: true,
-    installed_location: "lib64/libCB.so",
-    symlink_target: "/vendor/lib64/libllvm-glnext.so",
-}
 
-// 定義 32-bit 的 libCB.so 連結 (指向 libllvm-glnext.so)
-install_symlink {
-    name: "libCB_symlink32",
-    vendor: true,
-    installed_location: "lib/libCB.so",
-    symlink_target: "/vendor/lib/libllvm-glnext.so",
-}
