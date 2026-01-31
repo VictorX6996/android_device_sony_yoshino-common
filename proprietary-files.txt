@@ -362,6 +362,8 @@ vendor/lib/libadreno_utils.so
 vendor/lib/libq3dtools_adreno.so
 vendor/lib/egl/libEGL_adreno.so
 vendor/lib/egl/libGLESv2_adreno.so
+vendor/lib64/libCB.so
+vendor/lib/libCB.so
 
 
 # UDATEMISCTA
