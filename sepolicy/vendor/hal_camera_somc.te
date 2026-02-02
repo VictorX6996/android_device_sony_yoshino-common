@@ -52,3 +52,6 @@ allow hal_camera_somc lensctrl_device:chr_file rw_file_perms;
 
 # Don't log attempts to look for idd
 dontaudit hal_camera_somc default_android_hwservice:hwservice_manager find;
+
+# Allow Camera HAL to access OpenCL/Adreno libs
+allow hal_camera_default vendor_file:file { read open getattr map execute };
