@@ -243,3 +243,9 @@ wifi.interface=wlan0
 
 # Zygote
 zygote.critical_window.minute=10
+
+### Display driver fix
+# Disable UBWC to prevent artifacts with newer Adreno drivers
+debug.gralloc.enable_ubwc=0
+debug.gralloc.gfx_ubwc_disable=1
+vendor.gralloc.enable_ubwc=0
