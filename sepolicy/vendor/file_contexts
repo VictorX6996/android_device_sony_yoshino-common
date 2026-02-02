@@ -161,14 +161,6 @@
 
 
 # LIBRARIES - Adreno Graphics & OpenCL
-/(vendor|system/vendor)/lib(64)?/libOpenCL\.so              u:object_r:vendor_file:s0
-/(vendor|system/vendor)/lib(64)?/libCB\.so                  u:object_r:vendor_file:s0
-/(vendor|system/vendor)/lib(64)?/libllvm-qcom\.so           u:object_r:vendor_file:s0
-/(vendor|system/vendor)/lib(64)?/libgsl\.so                 u:object_r:vendor_file:s0
-/(vendor|system/vendor)/lib(64)?/libadreno_utils\.so        u:object_r:vendor_file:s0
-/(vendor|system/vendor)/lib(64)?/libRSDriver_adreno\.so     u:object_r:vendor_file:s0
-/(vendor|system/vendor)/lib(64)?/libfastcvopt\.so           u:object_r:vendor_file:s0
-/(vendor|system/vendor)/lib(64)?/libq3dtools_adreno\.so     u:object_r:vendor_file:s0
 /(vendor|system/vendor)/lib(64)?/libq3dtools_esx\.so        u:object_r:vendor_file:s0
 /(vendor|system/vendor)/lib(64)?/libqseed3\.so              u:object_r:vendor_file:s0
 /(vendor|system/vendor)/lib(64)?/libhdr_tm\.so              u:object_r:vendor_file:s0
