@@ -249,6 +249,3 @@ zygote.critical_window.minute=10
 debug.gralloc.enable_ubwc=0
 debug.gralloc.gfx_ubwc_disable=1
 vendor.gralloc.enable_ubwc=0
-
-# Fix flickering under high GPU load (Enable GL Backpressure)
-debug.sf.enable_gl_backpressure=1
