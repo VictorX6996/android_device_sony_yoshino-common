@@ -251,4 +251,8 @@ debug.gralloc.gfx_ubwc_disable=1
 vendor.gralloc.enable_ubwc=0
 
 
-debug.sf.enable_gl_backpressure=1
+# [新增] 強制使用 GPU 合成 (繞過 HWC，解決閃爍和條紋的終極手段)
+debug.sf.disable_hwc=1
+
+# 解決 EGL Image Fault (這直接針對你 Log 裡的 "pid=... (egl_image)" 錯誤)
+debug.sf.disable_client_composition_cache=1
