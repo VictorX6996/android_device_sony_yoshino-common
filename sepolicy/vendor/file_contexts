@@ -158,3 +158,16 @@
 /(vendor|system/vendor)/bin/ta_qmi_service                      u:object_r:ta_qmi_service_exec:s0
 /(vendor|system/vendor)/bin/tad                                 u:object_r:tad_exec:s0
 /(vendor|system/vendor)/bin/taimport_vendor                     u:object_r:taimport_vendor_exec:s0
+
+
+# EGL/GLES - 必須是 same_process_hal_file，否則 SurfaceFlinger 會讀取失敗
+/(vendor|system/vendor)/lib(64)?/egl/libEGL_adreno\.so       u:object_r:same_process_hal_file:s0
+/(vendor|system/vendor)/lib(64)?/egl/libGLESv1_CM_adreno\.so u:object_r:same_process_hal_file:s0
+/(vendor|system/vendor)/lib(64)?/egl/libGLESv2_adreno\.so    u:object_r:same_process_hal_file:s0
+/(vendor|system/vendor)/lib(64)?/egl/eglSubDriverAndroid\.so u:object_r:same_process_hal_file:s0
+
+# 其他可能被圖形服務載入的庫
+/(vendor|system/vendor)/lib(64)?/libq3dtools_esx\.so        u:object_r:same_process_hal_file:s0
+/(vendor|system/vendor)/lib(64)?/libqseed3\.so              u:object_r:same_process_hal_file:s0
+/(vendor|system/vendor)/lib(64)?/libhdr_tm\.so              u:object_r:same_process_hal_file:s0
+/(vendor|system/vendor)/lib(64)?/libeglc2d\.so              u:object_r:same_process_hal_file:s0
