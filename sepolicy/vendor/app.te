@@ -6,6 +6,3 @@ get_prop(appdomain, exported_camera_prop);
 # Fixes: avc: denied { read } for name="kgsl-3d0" ...
 r_dir_file(untrusted_app, sysfs_kgsl)
 r_dir_file(untrusted_app, vendor_sysfs_kgsl_gpuclk)
-
-# Allow app to read battery info (3DMark also tries to read this)
-r_dir_file(untrusted_app, sysfs_batteryinfo)
