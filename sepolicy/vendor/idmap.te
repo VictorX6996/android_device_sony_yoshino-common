@@ -1,0 +1,2 @@
+# 允許 idmap 獲取 sys_admin 權限 (Legacy Kernel 4.4 FBE 必需)
+allow idmap self:capability sys_admin;
