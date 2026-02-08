@@ -21,3 +21,9 @@
 
     <string name="config_sfps_enrollment_illustration_drawable" translatable="false">@drawable/fingerprint_sensor_location</string>
 </resources>
+
+<resources>
+    <bool name="config_is_side_fingerprint">true</bool>
+    
+    <string name="config_sfps_animation_type" translatable="false">right_edge</string>
+</resources>
