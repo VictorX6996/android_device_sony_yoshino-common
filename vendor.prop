@@ -266,6 +266,3 @@ debug.gralloc.gfx_ubwc_disable=1
 
 # 強制宣告為手機 (Phone)，避免被誤判為平板
 ro.build.characteristics=default
-
-# XZ1 Compact 標準 DPI (720p 4.6吋)
-ro.sf.lcd_density=320
