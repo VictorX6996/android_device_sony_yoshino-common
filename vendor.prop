@@ -263,20 +263,3 @@ debug.egl.blobcache_invalid_dirty=1
 vendor.gralloc.enable_ubwc=1
 debug.gralloc.enable_ubwc=1
 debug.gralloc.gfx_ubwc_disable=1
-
-# Storage Encryption
-
-ro.crypto.type=file
-ro.crypto.volume.filenames_mode=aes-256-cts
-# 1. 禁用 APK Verity (S835 舊核心不支援，這是導致 ACCERR 的主因)
-ro.apk_verity.mode=0
-
-# 2. 禁用 IORap (預讀機制，舊機型容易崩潰)
-ro.iorapd.enable=false
-
-# 3. 調整 Dalvik 設定 (確保使用正確的指令集)
-dalvik.vm.isa.arm64.variant=kryo
-dalvik.vm.isa.arm64.features=default
-
-# 4. (選用) 如果還是崩潰，暫時關閉 JIT 測試
-# dalvik.vm.usejit=false
