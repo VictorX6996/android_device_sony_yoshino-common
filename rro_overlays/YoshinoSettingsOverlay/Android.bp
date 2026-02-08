@@ -1,0 +1,7 @@
+runtime_resource_overlay {
+    name: "YoshinoSettingsOverlay",
+    theme: "YoshinoSettingsOverlay",
+    certificate: "platform",
+    sdk_version: "current",
+    product_specific: true
+}

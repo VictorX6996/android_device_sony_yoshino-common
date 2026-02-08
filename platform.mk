@@ -36,7 +36,9 @@ $(call inherit-product, frameworks/native/build/phone-xhdpi-4096-dalvik-heap.mk)
 
 # For android_filesystem_config.h permissions
 PRODUCT_PACKAGES += \
-    fs_config_dirs
+    fs_config_dirs\
+    YoshinoSettingsOverlay\
+    YoshinoSetupWizardOverlay
 
 # Enable dynamic partition size
 PRODUCT_USE_DYNAMIC_PARTITION_SIZE := true
