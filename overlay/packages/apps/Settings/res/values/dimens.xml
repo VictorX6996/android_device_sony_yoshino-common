@@ -19,3 +19,18 @@
     <item name="fingerprint_sensor_location_fraction_x" type="fraction">51.00%</item>
     <item name="fingerprint_sensor_location_fraction_y" type="fraction">51.00%</item>
 </resources>
+<resources>
+    <dimen name="setup_design_illustration_height">0dp</dimen>
+    <dimen name="sud_illustration_height">0dp</dimen>
+
+    <dimen name="setup_design_header_area_margin_bottom">0dp</dimen>
+    <dimen name="sud_header_bottom_margin">4dp</dimen>
+
+    <dimen name="setup_design_header_text_size">24sp</dimen>
+    <dimen name="sud_header_title_size">24sp</dimen>
+
+    <dimen name="lock_pattern_view_size">260dp</dimen>
+    
+    <dimen name="sud_content_frame_padding_top">0dp</dimen>
+    <dimen name="sud_content_frame_padding_bottom">0dp</dimen>
+</resources>
