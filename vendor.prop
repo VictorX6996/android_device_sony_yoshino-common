@@ -260,6 +260,6 @@ debug.egl.blobcache_invalid_dirty=1
 # 3. 確保 UBWC 設定正確 (配合你的混合配置)
 # 相機(32bit)用原廠驅動需要 UBWC，UI/跑分(64bit)用新驅動也支援 UBWC
 # 但為了避免 UI 條紋，我們只針對 UI 關閉
-vendor.gralloc.enable_ubwc=1
-debug.gralloc.enable_ubwc=1
+vendor.gralloc.enable_ubwc=0
+debug.gralloc.enable_ubwc=0
 debug.gralloc.gfx_ubwc_disable=1
