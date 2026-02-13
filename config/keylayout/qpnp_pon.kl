@@ -1,0 +1,12 @@
+# qpnp_pon.kl - Custom Key Layout for Sony Yoshino
+# 修正 Power + VolUp 導致電源鍵訊號變成音量訊號的 Bug
+
+# 1. 正常的電源鍵訊號 (截圖時會用到)
+key 116   POWER
+
+# 2. 音量下 (保持原樣，或者註解掉交給 gpio-keys 處理也可以)
+key 114   VOLUME_DOWN
+
+# 3. 【關鍵修改】把 event0 的 "音量上" 強制對應成 "POWER"
+# 原本是: key 115 VOLUME_UP
+key 115   POWER

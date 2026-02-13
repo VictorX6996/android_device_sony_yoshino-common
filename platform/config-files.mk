@@ -37,7 +37,8 @@ PRODUCT_COPY_FILES += \
 
 ### KEYLAYOUT
 PRODUCT_COPY_FILES += \
-    $(PLATFORM_PATH)/config/keylayout/gpio-keys.kl:$(TARGET_COPY_OUT_SYSTEM)/usr/keylayout/gpio-keys.kl
+    $(PLATFORM_PATH)/config/keylayout/gpio-keys.kl:$(TARGET_COPY_OUT_SYSTEM)/usr/keylayout/gpio-keys.kl \
+    $(PLATFORM_PATH)/config/keylayout/qpnp_pon.kl:$(TARGET_COPY_OUT_SYSTEM)/usr/keylayout/qpnp_pon.kl 
 
 ### MEDIA
 PRODUCT_COPY_FILES += \
