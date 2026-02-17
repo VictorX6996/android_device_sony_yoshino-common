@@ -160,3 +160,11 @@ WPA_SUPPLICANT_VERSION := VER_0_8_X
 
 ### A/B
 AB_OTA_UPDATER := false
+
+# KSU Config
+
+ifeq ($(KSU_ENABLED), true)
+    BOARD_KERNEL_CMDLINE += androidboot.ksu=1
+   
+    PRODUCT_NAME_SUFFIX := -KSU
+endif
