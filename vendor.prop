@@ -255,7 +255,7 @@ zygote.critical_window.minute=10
 # debug.sf.latch_unsignaled=1
 
 # 2. 禁用 EGL Blob Cache (避免舊 Firmware 讀到不相容的新版 Shader Cache)
-# debug.egl.blobcache_invalid_dirty=1
+debug.egl.blobcache_invalid_dirty=1
 
 # 3. 確保 UBWC 設定正確 (配合你的混合配置)
 # 相機(32bit)用原廠驅動需要 UBWC，UI/跑分(64bit)用新驅動也支援 UBWC
