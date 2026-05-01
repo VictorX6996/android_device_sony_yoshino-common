@@ -235,5 +235,3 @@ ro.surface_flinger.default_composition_dataspace=0
 # 停用 HDR 處理
 ro.surface_flinger.has_HDR_display=false
 
-# 強迫 RenderEngine 降級
-debug.renderengine.backend=skiagl
