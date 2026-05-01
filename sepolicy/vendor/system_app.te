@@ -22,3 +22,8 @@ get_prop(system_app, vendor_cnd_vendor_prop)
 # Allow Xperia Parts to enable/disable SmartStamina
 set_prop(system_app, vendor_clearpad_prop)
 get_prop(system_app, vendor_clearpad_prop)
+
+# 允許系統 App 讀取 GPU 狀態
+allow system_app sysfs_kgsl:dir search;
+allow system_app sysfs_kgsl:file r_file_perms;
+allow system_app sysfs_kgsl:lnk_file read;
