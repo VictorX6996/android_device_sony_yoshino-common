@@ -206,4 +206,6 @@
     <array name="config_sfps_sensor_props" translatable="false">
         <item>@array/config_sfps_sensor_props_0</item>
     </array>
+    <!-- 允許將 SD 卡格式化為內部儲存空間 -->
+    <bool name="config_adoptableStorage">true</bool>
 </resources>
