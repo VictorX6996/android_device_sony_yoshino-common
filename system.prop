@@ -235,3 +235,5 @@ ro.surface_flinger.default_composition_dataspace=0
 # 停用 HDR 處理
 ro.surface_flinger.has_HDR_display=false
 
+# Allow use SD Card as internal storage
+ro.vold.force_adoptable=true
