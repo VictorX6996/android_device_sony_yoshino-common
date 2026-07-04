@@ -2,4 +2,12 @@
 
 unix_socket_connect(sensors, tad, tad)
 
+# 1. Allow the daemon to walk through the root /mnt/vendor/persist folder
+allow sensors persist_file:dir search;
+allow sensors mnt_vendor_file:dir search;
+
+# 2. Allow the daemon full access to the nested sensors_registry folder
+allow sensors sensors_persist_file:dir { search read open write add_name create getattr };
+allow sensors sensors_persist_file:file { read write open create getattr setattr };
+
 get_prop(sensors, semc_version_prop)

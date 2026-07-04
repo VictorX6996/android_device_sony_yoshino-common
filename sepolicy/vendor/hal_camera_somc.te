@@ -55,3 +55,5 @@ dontaudit hal_camera_somc default_android_hwservice:hwservice_manager find;
 
 # Allow Camera HAL to access OpenCL/Adreno libs
 allow hal_camera_default vendor_file:file { read open getattr map execute };
+
+allow hal_camera_somc fwk_sensor_service:service_manager find;
