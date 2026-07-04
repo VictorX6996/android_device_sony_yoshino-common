@@ -27,8 +27,7 @@ $(call inherit-product-if-exists, vendor/sony/camera/sony-camera.mk)
 PRODUCT_SOONG_NAMESPACES += \
     $(PLATFORM_PATH) \
     hardware/google/interfaces \
-    hardware/google/pixel \
-    hardware/qcom-caf/msm8998/media
+    hardware/google/pixel 
 
 QCOM_SOONG_NAMESPACE := $(PLATFORM_PATH)/hardware/qcom-caf
 

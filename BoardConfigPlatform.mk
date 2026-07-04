@@ -23,6 +23,7 @@ BOARD_USES_QCOM_HARDWARE := true
 BOARD_VENDOR := sony
 TARGET_BOARD_PLATFORM := msm8998
 TARGET_BOARD_PLATFORM_GPU := qcom-adreno540
+MSM_VIDC_TARGET_LIST := msm8998
 
 ### PROCESSOR
 TARGET_ARCH := arm64
@@ -122,6 +123,7 @@ TARGET_SYSTEM_PROP := $(PLATFORM_PATH)/system.prop
 TARGET_VENDOR_PROP := $(PLATFORM_PATH)/vendor.prop
 
 ### RECOVERY
+
 ifneq ($(filter maple maple_dsds, $(TARGET_DEVICE)),)
 TARGET_RECOVERY_FSTAB := $(PLATFORM_PATH)/recovery/fstab_maple.recovery
 else
